@@ -1,11 +1,8 @@
 <template>
     <div class="footer">
-        <div></div>
         <div>
             <h4> &copy CatFacts Inc, 2024 </h4>
         </div>
-       
-
     </div>
 </template>
 

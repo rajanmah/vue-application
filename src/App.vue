@@ -26,7 +26,6 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
   background-color: #333;
   color: #fff;
   padding: 10px;
@@ -58,8 +57,6 @@ nav {
   margin-left: 0px;
 }
 nav:hover{
-  /* background-color: white; */
-  color:blanchedalmond;
   transform:scale(1.2) ;
 }
 </style>

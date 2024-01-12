@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
-import CatFacts from '../components/CatFacts.vue'
-import DogFacts from '../components/DogFacts.vue'
+import CatFacts from '../views/CatFacts.vue'
+import DogFacts from '../views/DogFacts.vue'
 
 
 const router = createRouter({

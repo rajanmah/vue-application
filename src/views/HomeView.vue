@@ -1,10 +1,8 @@
 <script>
-// import Vue from 'vue'
 export default {
   data(){
     return{
-      // link: "https://en.wikipedia.org/wiki/Cat"
-      link2: "https://en.wikipedia.org/wiki/List_of_cat_breeds"
+      link2: "https://en.wikipedia.org/wiki/Cats"
   }
 }
 }
@@ -68,7 +66,7 @@ export default {
     </span>
 
 
-      Disclaimer: Above text is copied from <a :href="link2"> Cats</a> and <a href="https://en.wikipedia.org/wiki/List_of_cat_breeds">Breeds</a> from Wikipedia.
+      Disclaimer: Above text is copied from <a :href="link2"> The World of Cats</a> and <a href="https://en.wikipedia.org/wiki/List_of_cat_breeds">Cat Breeds</a> from Wikipedia.
     </div>
 
   </main>

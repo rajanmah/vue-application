@@ -4,7 +4,7 @@
       Send us interesting Cat Facts, we will post in this page.
     </h2>
 
-    <form action="#" method="post">
+    <form>
       <input type="text" width=" 200px" name="name" placeholder="Your Name" required>
       <br>
       <input type="email" name="email" placeholder="Your email address" required>
@@ -22,11 +22,10 @@
 
     <section>
       <h2>Contact Information</h2>
-      <p>You can also reach us using the following contact information:</p>
+      <p>Need further information, please reach out to us:</p>
 
       <address>
         <p>Email: <a href="#"> catfacts@caatfaacts.com</a></p>
-
       </address>
     </section>
 
@@ -43,6 +42,8 @@
   justify-content: center;
   text-align: center;
   padding:20px;
+  margin-bottom: 120px;
+
 
 }
 

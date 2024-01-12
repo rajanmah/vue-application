@@ -13,21 +13,24 @@
                         <h4> {{ cat.temperament }} </h4>
                     </div>
                     <div className="card__description">{{ cat.description }}</div>
-
+                    <a :href="cat.wikipedia_url"> Read More </a>
                 </div>
 
 
             </div>
         </div>
+        <!-- <h1>Note: Aegean picture By Sam Holt - Own work, CC BY-SA 4.0</h1> -->
+        <p>Note: Aegean picture source <a href="https://commons.wikimedia.org/w/index.php?curid=102591863"> By Sam Holt - Own work,
+                CC BY-SA 4.0</a></p>
+
     </div>
 </template>
 
 <style scoped>
 .container {
-    margin: 150px 50px 100px 50px;
+    margin: 150px 20px 110px 20px;
     /* border: 1px red solid; */
     border-radius: 10px;
-    ;
     height: 100%;
     background-color: goldenrod;
     justify-content: center;
@@ -44,6 +47,7 @@
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
 }
 
 img {
@@ -146,7 +150,7 @@ const catDatas = reactive([
         "rex": 0,
         "suppressed_tail": 0,
         "short_legs": 0,
-        "url": "https://images.pexels.com/photos/19709137/pexels-photo-19709137/free-photo-of-portrait-of-cute-cat.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Aegean_Island_Cat.jpg",
         "wikipedia_url": "https://en.wikipedia.org/wiki/Aegean_cat",
         "hypoallergenic": 0,
         "reference_image_id": "ozEvzdVM-"
