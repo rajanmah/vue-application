@@ -1,29 +1,12 @@
-# vue-application-sba322
+## Vue Application
+This is simple website built on Vue Js. It simply has compnents of header, footer and four different routes and respective pages.
 
-This template should help get you started developing with Vue 3 in Vite.
+I used data from CatAPI to display different breeds of cats and some basic information about that particular breed. I manually created dataset for this web application instead of fetching directly from the API. 
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+I used: 
+> templating,
+> component-specific styling,
+> property binding,
+> attribute binding
+> v-for Directive
+> vue-router
